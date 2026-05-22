@@ -14,44 +14,50 @@
 		font-family: 'メイリオ', Meiryo,'ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
 		background-color : teal
 		}
-
 		
-*,
-*:before,
-*:after {
-  -webkit-box-sizing: inherit;
-  box-sizing: inherit;
-}
-
-html {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  font-size: 62.5%;/*rem算出をしやすくするために*/
-}
-
-.btn,
-a.btn,
-button.btn {
-  font-size: 1.6rem;
-  font-weight: 700;
-  line-height: 1.5;
-  position: relative;
-  display: inline-block;
-  padding: 1rem 4rem;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  text-align: center;
-  vertical-align: middle;
-  text-decoration: none;
-  letter-spacing: 0.1em;
-  color: #212529;
-  border-radius: 0.5rem;
-}
+		 <!-- ここからCSSボタン -->
+		 
+		 .btn-wrapper {
+		 display: inline-flex;
+		 flex-direction: column;
+		 4}
+		
+		*,
+		*:before,
+		*:after {
+		-webkit-box-sizing: inherit;
+		 box-sizing: inherit;
+		 }
+		 
+		 html {
+		  -webkit-box-sizing: border-box;
+		  box-sizing: border-box;
+		   font-size: 62.5%;/*rem算出をしやすくするために*/
+		   }
+		   
+		   .btn,
+		   a.btn,
+		   button.btn {
+		    font-size: 1.6rem;
+		    font-weight: 700;
+		    line-height: 1.5;
+		    position: relative;
+		    display: inline-block;
+		    padding: 1rem 4rem;
+		    cursor: pointer;
+		    -webkit-user-select: none;
+		    -moz-user-select: none;
+		    -ms-user-select: none;
+		    user-select: none;
+		    -webkit-transition: all 0.3s;
+		    transition: all 0.3s;
+		    text-align: center;
+		    vertical-align: middle;
+		    text-decoration: none;
+		     letter-spacing: 0.1em;
+		     color: #212529;
+		     border-radius: 0.5rem;
+		     } 
 		
 		a.btn-border {
 		 border: 2px solid #000;
@@ -74,8 +80,10 @@ button.btn {
 		 
 		 <h2>WIZDOLL</h2>
 		 <p>一次創作。</p>
+		 <div class="btn-wrapper">
 		 <a href="" class="btn btn-border" "https://xfolio.jp/portfolio/myara">Xfolio</a><br>
 		 <a href="" class="btn btn-border""https://misskey.design/@myara">misskey.design</a>
+		 </div>
 		 
 		 <p>©︎WIZDOLL</p>
 	
