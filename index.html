@@ -13,6 +13,13 @@
 		font-size : 16 px;
 		font-family: 'メイリオ', Meiryo,'ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
 		background-color : teal
+
+			@media screen and (min-width: 481px) {
+	/* 481px以上に適用されるCSS（タブレット用） */
+}
+@media screen and (min-width: 960px) {
+	/* 960px以上に適用されるCSS（PC用） */
+}
 		
 		}
 
@@ -22,7 +29,7 @@
 		
 		.box1 {
     padding: 0.5em 1em;
-    margin:2em 15em;
+    margin:2em 0;
     font-weight: bold;
     color: #000000;/*文字色*/
     background: #FFF;
